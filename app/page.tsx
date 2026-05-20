@@ -1,47 +1,31 @@
-import Loader from './components/Loader';
-import Aurora from './components/Aurora';
-import CursorGlow from './components/CursorGlow';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Stats from './components/Stats';
-import HowItWorks from './components/HowItWorks';
-import ProductShowcase from './components/ProductShowcase';
-import TechStack from './components/TechStack';
-import Market from './components/Market';
-import Technology from './components/Technology';
-import CTA from './components/CTA';
-import Footer from './components/Footer';
+import Aurora from './Componentes/Aurora'
+import CursorGlow from './Componentes/CursorGlow'
+import Navbar from './Componentes/Navbar'
+import Hero from './Componentes/Hero'
+import Stats from './Componentes/Stats'
+import HowItWorks from './Componentes/HowItWorks'
+import ProductShowcase from './Componentes/ProductShowcase'
+import TechStack from './Componentes/TechStack'
+import Market from './Componentes/Market'
+import Technology from './Componentes/Technology'
+import CTA from './Componentes/CTA'
+import Footer from './Componentes/Footer'
 
 export default function Home() {
   return (
     <main className="bg-black overflow-hidden">
-
-      <Loader />
-
-      <CursorGlow />
-
       <Aurora />
-      
+      <CursorGlow />
       <Navbar />
-
       <Hero />
-
       <Stats />
-
       <HowItWorks />
-
       <ProductShowcase />
-
       <TechStack />
-
       <Market />
-
       <Technology />
-
       <CTA />
-
       <Footer />
     </main>
-
-  );
+  )
 }
